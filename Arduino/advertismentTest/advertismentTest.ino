@@ -20,7 +20,7 @@ void setup() {
   Serial.println("Starting BLE work!");
 
   // 2
-  BLEDevice::init("myBTTestForAdvertisment");
+  BLEDevice::init("myBTTestForAdvertisment2");
   // 3
   BLEServer *pServer = BLEDevice::createServer();
   // 4
